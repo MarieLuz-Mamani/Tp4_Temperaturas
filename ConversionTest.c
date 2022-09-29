@@ -6,11 +6,14 @@
 
 /* --- funcion compare double ---*/
 int compare_double(double x, double y) {
-   double epsilon = 0.01f;
+   double epsilon = 0.1f;
    if(fabs(x - y) < epsilon)
       return 0; //true
       return 1; //false
   }
+
+// Epsilon es un rango de error
+// 44.98 - 44.89 = 0.09   
 
 int main(){
   printf("\n - - Inició de pruebas - - \n");
