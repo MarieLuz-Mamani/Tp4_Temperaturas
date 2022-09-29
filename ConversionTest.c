@@ -20,7 +20,7 @@ int main(){
   assert(compare_double(celsius(44), 6.66)==0);//44°F es igual a 6.66°C
   assert(compare_double(celsius(392),200)==0);//392°F es igual a 200°C
   
-  assert(compare_double(farenheit(93),200)==0);//93°C es igual a 200°F
+  assert(compare_double(farenheit(93.33),200)==0);//93°C es igual a 200°F
   assert(compare_double(farenheit(6),42.8)==0);//6°C es igual a 42.8°F
   assert(compare_double(farenheit(6.11),43)==0);//6.11°C es igual a 43°F
   assert(compare_double(farenheit(6.66),44)==0);//6.66°C es igual a 44°F
